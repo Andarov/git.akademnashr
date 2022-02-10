@@ -92,3 +92,6 @@ body {
     color: #252420;
     text-decoration: none;
 }
+.link ul {
+    width: 224px;
+}
