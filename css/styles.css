@@ -23,7 +23,6 @@ body {
 }
 .sitenav-link {
     font-size: 13px;
-    font-family: "Roboto", "Arial", sans-serif;
     font-weight: 500;
     line-height: 15px;
     letter-spacing: 1px;
@@ -33,11 +32,8 @@ body {
 }
 .hero-link {
     font-size: 13px;
-    font-family: "Roboto" "Arial" sans-serif;
-    font-style: normal;
     font-weight: bold;
     line-height: 15px;
-    letter-spacing: 0.5px;
     text-decoration: none;
     background-color: #ff7500;
     color: #fff;
@@ -68,29 +64,22 @@ body {
 .hero-main p {
     color: #fff;
 }
-.features {
-    width: 1440px;
-    background-color: #fff;
-}
 .features-list {
     display: flex;
     list-style: none;
 }
 .features h2 {
-    font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
-    font-style: normal;
+    font-family: Roboto Condensed, Arial, sans-serif;
     font-weight: bold;
     font-size: 72px;
     line-height: 86px;
-    letter-spacing: 0.5px;
     color: #000;
 }
 .features-link {
     width: 340px;
 }
 .features h3 {
-    font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
-    font-style: normal;
+    font-family: Roboto Condensed, Arial, sans-serif;
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
@@ -105,10 +94,6 @@ body {
 .promo-highlite {
     color: #ff7500;
 }
-.footer {
-    width: 1440px;
-    background-color: #f8f8f8;
-}
 .footer-top {
     display: flex;
     justify-content: space-between;
@@ -118,8 +103,7 @@ body {
     list-style: none;
 }
 hr {
-    width: 1100px;
-    height: 2px;
+     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
 }
 .link {
