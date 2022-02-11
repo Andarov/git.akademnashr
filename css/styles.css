@@ -7,6 +7,20 @@ body {
     letter-spacing: 0.5px;
     color: #000;
 }
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-header-list {
+    display: flex;
+    align-items: center;
+}
+.sitenav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
 .sitenav-link {
     font-size: 13px;
     font-family: "Roboto", "Arial", sans-serif;
@@ -24,10 +38,13 @@ body {
     font-weight: bold;
     line-height: 15px;
     letter-spacing: 0.5px;
+    text-decoration: none;
     background-color: #ff7500;
     color: #fff;
 }
 .top {
+    display: flex;
+    justify-content: space-between;
     width: 1440px;
     background-color: #252420;
 }
@@ -55,6 +72,10 @@ body {
     width: 1440px;
     background-color: #fff;
 }
+.features-list {
+    display: flex;
+    list-style: none;
+}
 .features h2 {
     font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -77,6 +98,7 @@ body {
     color: #000;
 }
 .promo {
+    display: flex;
     width: 1100px;
     background-color: #252420;
 }
@@ -87,11 +109,31 @@ body {
     width: 1440px;
     background-color: #f8f8f8;
 }
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list {
+    display: flex;
+    list-style: none;
+}
+hr {
+    width: 1100px;
+    height: 2px;
+    background-color: rgba(37, 36, 32, 0.5);
+}
+.link {
+    display: flex;
+    list-style: none;
+}
 .link a {
     line-height: 19px;
+    font-family: "Roboto", "Arial" sans-serif;
     color: #252420;
     text-decoration: none;
 }
 .link ul {
     width: 224px;
+    text-decoration: none;
+    list-style: none;   
 }
