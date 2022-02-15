@@ -84,13 +84,12 @@ body {
 }
 .hero-main p {
     color: #fff;
-}
+} 
 .features-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-}
 }
 .features h2 {
     font-family: "Roboto Condensed", "Arial", sans-serif;
