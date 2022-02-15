@@ -13,8 +13,11 @@ body {
 }
 .site-header {
     display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
     justify-content: space-between;
     align-items: center;
+    border-top: #ff7500 5px solid;
 }
 .logo-link:hover {
     opacity: 0.8;
@@ -28,6 +31,7 @@ body {
 }
 .sitenav-list {
     display: flex;
+    padding: 0;
     align-items: center;
     list-style: none;
 }
@@ -51,6 +55,9 @@ body {
     opacity: 0.6;
 }
 .hero-link {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 4px;
     font-size: 13px;
     font-weight: bold;
     line-height: 15px;
@@ -64,6 +71,11 @@ body {
 .hero-link:active {
     opacity: 0.6;
 }
+.hero-img {
+    width: 510px;
+    height: 510px;
+    border-radius: 8px;
+}
 .top {
     display: flex;
     justify-content: space-between;
@@ -72,10 +84,13 @@ body {
 }
 .hero-main {
     width: 387px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .main-hr {
     width: 80px;
     height: 3px;
+    padding: 0;
     background-color: #ff7500;
 }
 .hero-main h2 {
@@ -88,8 +103,13 @@ body {
 }
 .hero-main p {
     color: #fff;
+}
+.features {
+    padding-top: 210px;
+    padding-bottom: 210px;
 } 
 .features-list {
+    padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -113,10 +133,20 @@ body {
 .promo {
     display: flex;
     align-items: center;
+    border-radius: 12px;
     background-color: #252420;
 }
 .promo-highlite {
     color: #ff7500;
+}
+.promo-img {
+    width: 440px;
+    height: 440px;
+    border-radius: 12px;
+}
+.footer {
+    padding-top: 56px;
+    padding-bottom: 56px;
 }
 .footer-top {
     display: flex;
@@ -124,6 +154,7 @@ body {
     align-items: center;
 }
 .footer-list {
+    padding: 0;
     display: flex;
     list-style: none;
 }
@@ -136,13 +167,16 @@ body {
 .footer-list a:active {
     opacity: 0.6;
  }
-hr {
+hr {    
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
 }
 .link {
     display: flex;
     list-style: none;
+}
+.link ul {
+    padding: 0;
 }
 .link a {
     line-height: 19px;
