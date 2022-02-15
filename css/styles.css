@@ -7,6 +7,10 @@ body {
     letter-spacing: 0.5px;
     color: #000;
 }
+*:focus {
+    outline: #ff7500 3px solid;
+    outline-offset: 3px;
+}
 .site-header {
     display: flex;
     justify-content: space-between;
