@@ -19,6 +19,9 @@ body {
     align-items: center;
     border-top: #ff7500 5px solid;
 }
+.logo-link {
+    transition: opacity 0.4s ease;
+}
 .logo-link:hover {
     opacity: 0.8;
 }
@@ -64,6 +67,7 @@ body {
     text-decoration: none;
     background-color: #ff7500;
     color: #fff;
+    transition: opacity 0.4s ease;
 }
 .hero-link:hover {
     opacity: 0.8;
@@ -161,6 +165,7 @@ body {
 }
 .footer-list a {
     color: #252420;
+    transition: color 0.45s ease;
 }
 .footer-list a:hover {
     color: #ff7500;
@@ -184,6 +189,7 @@ hr {
     font-family: "Roboto", "Arial", sans-serif;
     color: #252420;
     text-decoration: none;
+    transition: color 0.4s ease;
 }
 .link a:hover {
     color: #ff7500;
