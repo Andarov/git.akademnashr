@@ -47,6 +47,15 @@ body {
     list-style: none;
 }
 
+.sitenav-item {
+    margin: 0;
+    margin-right: 32px;
+}
+
+.sitenav-item:last-child {
+    margin: 0;
+}
+
 .sitenav-link {
     font-size: 13px;
     font-weight: 500;
@@ -56,6 +65,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     transition: color 0.4s ease;
+    margin: 0;
 }
 
 .sitenav-link:hover {
@@ -81,6 +91,8 @@ body {
     background-color: #ff7500;
     color: #fff;
     transition: opacity 0.4s ease;
+    margin: 0;
+    margin-left: 32px;
 }
 
 .hero-link:hover {
@@ -114,6 +126,8 @@ body {
     width: 80px;
     height: 3px;
     padding: 0;
+    margin: 0;
+    margin-bottom: 43px;
     background-color: #ff7500;
 }
 
@@ -124,10 +138,14 @@ body {
     font-style: normal;
     line-height: 48px;
     color: #fff;
+    margin: 0;
+    margin-bottom: 24px;
 }
 
 .hero-main p {
     color: #fff;
+    margin: 0;
+    margin-bottom: 32px;
 }
 
 .features {
@@ -135,12 +153,9 @@ body {
     padding-bottom: 210px;
 } 
 
-.features-list {
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+.main-hr {
+    margin: 0;
+    margin-bottom: 24px;
 }
 
 .features h2 {
@@ -148,9 +163,24 @@ body {
     font-weight: bold;
     font-size: 72px;
     line-height: 86px;
+    margin: 0;
+    margin-bottom: 72px;
 }
+
+.features-list {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+}
+
 .features-link {
     width: 340px;
+    margin-right: 40px;
+}
+.features-link:last-child {
+    margin: 0;
 }
 
 .features h3 {
@@ -166,6 +196,21 @@ body {
     align-items: center;
     border-radius: 12px;
     background-color: #252420;
+    color: #fff;
+}
+
+.promo-heading {
+    font-family: "Roboto Condensed", "Arial", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 48px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.promo-paragraph {
+    margin: 0;
+    margin-bottom: 48px;
 }
 
 .promo-highlite {
@@ -193,8 +238,17 @@ body {
     padding: 0;
     display: flex;
     list-style: none;
+    margin: 0;
 }
 
+.footer-link {
+    margin: 0;
+    margin-right: 16px;
+}
+
+.footer-link:last-child {
+    margin: 0;
+}
 .footer-list a {
     color: #252420;
     transition: color 0.45s ease;
@@ -208,7 +262,13 @@ body {
     opacity: 0.6;
  }
 
+ .footer-link {
+     margin-right: 16px;
+ }
 hr {
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 64px;
     border: 0;    
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
