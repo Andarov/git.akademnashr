@@ -21,6 +21,7 @@ body {
     border-top: #ff7500 5px solid;
 }
 .logo-link {
+    display: inline-block;
     transition: opacity 0.4s ease;
 }
 .logo-link:hover {
@@ -93,6 +94,7 @@ body {
     padding-bottom: 80px;
 }
 .main-hr {
+    display: inline-block;
     width: 80px;
     height: 3px;
     padding: 0;
@@ -174,7 +176,8 @@ body {
 .footer-list a:active {
     opacity: 0.6;
  }
-hr {    
+hr {
+    border: 0;    
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
 }
