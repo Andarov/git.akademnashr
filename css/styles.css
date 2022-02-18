@@ -34,7 +34,7 @@ body {
     border-top: #ff7500 5px solid;
 }
 
-.site-header-coniainer {
+.site-header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
