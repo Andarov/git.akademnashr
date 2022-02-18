@@ -125,13 +125,6 @@ svg {
     opacity: 0.6;
 }
 
-.hero-img {
-    width: 510px;
-    height: 510px;
-    border-radius: 8px;
-    box-shadow: 24px 24px 0 0 rgba(255, 117, 0, 0.6);
-}
-
 .top {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -175,6 +168,7 @@ svg {
     margin: 0;
     margin-bottom: 32px;
 }
+
 
 .features {
     padding-top: 210px;
