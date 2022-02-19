@@ -192,6 +192,7 @@ svg {
     font-weight: bold;
     font-size: 72px;
     line-height: 86px;
+    letter-spacing: 0.5px;
     margin: 0;
     margin-bottom: 72px;
 }
@@ -253,6 +254,14 @@ svg {
 .promo-paragraph {
     margin: 0;
     margin-bottom: 48px;
+}
+
+.paragraph-item {
+    margin: 0;
+    margin-bottom: 12px;
+}
+.paragraph-item:last-child {
+    margin: 0;
 }
 
 .promo-highlite {
