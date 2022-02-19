@@ -170,6 +170,12 @@ svg {
     margin-bottom: 32px;
 }
 
+.hero-img {
+    width: 510px;
+    height: 510px;
+    border-radius: 8px;
+    box-shadow: 24px 24px 0px rgba(225, 117, 0, 0.6);
+}
 
 .features {
     padding-top: 210px;
