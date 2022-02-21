@@ -304,6 +304,7 @@ svg {
     margin: 0;
 }
 .footer-list a {
+    display: flex;
     color: #252420;
     transition: color 0.45s ease;
 }
