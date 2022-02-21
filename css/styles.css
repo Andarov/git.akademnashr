@@ -265,6 +265,10 @@ svg {
     margin: 0;
 }
 
+.paragraph-items {
+    font-weight: 700;
+}
+
 .promo-highlite {
     color: #ff7500;
 }
