@@ -234,6 +234,7 @@ svg {
 
 .promo {
     padding: 64px;
+    margin-bottom: 160px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -275,6 +276,8 @@ svg {
 }
 
 .footer {
+    background-color: #f8f8f8;
+    color: #252420;
     padding-top: 56px;
     padding-bottom: 56px;
 }
