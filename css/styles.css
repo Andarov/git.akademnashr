@@ -127,20 +127,20 @@ svg {
 }
 
 .top {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
     background-color: #252420;
     color: #fff;
 }
 
 .top-container {
+    position: relative;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
+
 .hero-main {
     width: 387px;
-    padding-top: 80px;
+    padding-top: 40px;
     padding-bottom: 80px;
 }
 
@@ -164,13 +164,15 @@ svg {
     margin-bottom: 24px;
 }
 
-.hero-main p {
+.hero-main-text {
     color: #fff;
     margin: 0;
     margin-bottom: 32px;
 }
 
 .hero-img {
+    position: absolute;
+    right: 0;
     width: 510px;
     height: 510px;
     border-radius: 8px;
@@ -233,6 +235,7 @@ svg {
 }
 
 .promo {
+    position: relative;
     padding: 64px;
     margin-bottom: 160px;
     display: flex;
@@ -241,6 +244,10 @@ svg {
     border-radius: 12px;
     background-color: #252420;
     color: #fff;
+}
+
+.promo-main {
+    width: 440px;
 }
 
 .promo-heading {
@@ -274,6 +281,9 @@ svg {
 }
 
 .promo-img {
+    position: absolute;
+    right: 64px;
+    bottom: 64px;
     width: 440px;
     height: 440px;
     border-radius: 12px;
