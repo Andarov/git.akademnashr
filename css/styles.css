@@ -127,20 +127,19 @@ svg {
 }
 
 .top {
-    padding-top: 40px;
     background-color: #252420;
     color: #fff;
 }
 
 .top-container {
-    position: relative;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .hero-main {
     width: 387px;
-    padding-top: 40px;
+    padding-top: 80px;
     padding-bottom: 80px;
 }
 
@@ -170,9 +169,13 @@ svg {
     margin-bottom: 32px;
 }
 
-.hero-img {
+.hero-img-wrapper {
     position: absolute;
-    right: 0;
+    top: 40px;
+    right: 20px;
+}
+
+.hero-img {
     width: 510px;
     height: 510px;
     border-radius: 8px;
